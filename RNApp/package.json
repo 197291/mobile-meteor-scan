@@ -1,0 +1,33 @@
+{
+  "name": "RNApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh",
+    "lint": "eslint app/"
+  },
+  "dependencies": {
+    "axios": "^0.17.0",
+    "gravatar-api": "^1.4.0",
+    "moment": "^2.19.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0-alpha.12",
+    "react-native": "^0.47.1",
+    "react-native-camera": "^0.10.0",
+    "react-native-console-panel": "^0.1.0",
+    "react-native-device-log": "^1.0.2",
+    "react-native-fontawesome": "^5.7.0",
+    "react-native-highcharts": "^0.2.1",
+    "react-native-keyboard-spacer": "^0.4.1",
+    "react-native-meteor": "^1.1.0",
+    "react-navigation": "^1.0.0-beta.12",
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.1"
+  }
+}
